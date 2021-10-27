@@ -8,5 +8,5 @@
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/jaeyoonw)
+- GitHub [@jaeyoonw](https://{github.com/jaeyoonw)
 
