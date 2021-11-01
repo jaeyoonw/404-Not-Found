@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+html,body,main {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* 
+MAIN
+*/
+.title {
+  position: absolute;
+  top: 40px;
+  left: 77px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.08em;
+  line-height: 25px;
+}
+.contents img {
+  position: absolute;
+  top: 265px;
+  left: 77px;
+  width: 539px;
+  height: 447px;
+}
+.contents .text-group {
+  position: absolute;
+  top: 265px;
+  left: 735px;
+  letter-spacing: -0.035em;
+  font-style: normal;
+  font-family: monospace;
+}
+.contents .text-group .contents__text-big {
+  color: #333;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 95px;
+  margin-bottom: 36px;
+}
+.contents .text-group .contents__text-small {
+  color: #4F4F4F;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+  margin-bottom: 64px;
+}
+.contents .text-group .btn{
+  width: 216px;
+  height: 68px;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  background-color: #333;
+  cursor: pointer;
+}
+.contents .text-group .btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+/*
+FOOTER
+*/
+.footer {
+  width: 100%;
+  height: 17px;
+  position: absolute;
+  top: 1039px;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.footer .footer__text  {
+  color: #BDBDBD;
+}
+
+
+/*
+Mobile Style
+*/
+@media only screen and (max-width: 767px) {    /* Mobile Size */
+  .title {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    line-height: 25px;
+  }
+  .contents img {
+    position: absolute;
+    top: 109px;
+    left: 44px;
+    width: 286px;
+    height: 238px;
+  }
+  .contents .text-group {
+    position: absolute;
+    top: 407px;
+    left: 24px;
+    letter-spacing: -0.035em;
+    font-style: normal;
+    font-family: monospace;
+  }
+  .contents .text-group .contents__text-big {
+    color: #333;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 71px;
+    margin-bottom: 30px;
+  }
+  .contents .text-group .contents__text-small {
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 66px;
+  }
+  .footer {
+    width: 100%;
+    height: 17px;
+    position: absolute;
+    top: 908px;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 17px;
+  }
+  .br {
+    display: none;
+  }
+}
