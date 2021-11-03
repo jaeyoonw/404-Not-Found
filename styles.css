@@ -59,9 +59,11 @@ MAIN
   background-color: #333;
   cursor: pointer;
 }
-.contents .text-group .btn:hover {
-  background-color: #fff;
-  color: #333;
+@media (hover: hover) {  /* Ignore hover on mobile */
+  .contents .text-group .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
 }
 
 
